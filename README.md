@@ -42,6 +42,8 @@ html
     </div>
   </div>
 </div>
+
+
 2️⃣ CSS (index.css)
 Handles the visual styling of the slider and cards.
 
@@ -49,32 +51,43 @@ Key Features:
 Glassmorphism Cards: Semi-transparent cards with a blur effect.
 Responsive Scaling: Centered cards scale dynamically for a focused effect.
 Smooth Hover Effects: Hovering over a card triggers a scaling animation.
+
 Key Classes:
 .card: Basic card styling.
 .card.current: Styling for the center card (enlarged).
 .card.neighbor: Styling for cards adjacent to the center.
+
+
 3️⃣ JavaScript (index.js)
 Provides interactive functionality for the slider.
 
 Key Functionalities:
+
 Draggable Slider: Enables dragging the slider vertically using mouse events.
 Infinite Scrolling: Clones cards to ensure seamless scrolling when reaching the top or bottom.
 Card Scaling: Dynamically adjusts the size of cards based on their position relative to the center.
+
 Key Functions:
+
 handleInfiniteScroll(): Ensures infinite scrolling by repositioning the slider when it reaches its bounds.
+
 updateCardSizes(): Dynamically adjusts the scaling of cards based on their position.
+
 Event Listeners:
 mousedown, mousemove, mouseup, and mouseleave for dragging behavior.
 scroll for infinite scrolling and updating card scaling.
+
 💻 Installation and Setup
+
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/your-username/vertical-draggable-card-slider.git
+
 cd vertical-draggable-card-slider
+
 Open the project in your preferred code editor.
 
-Run the project:
+
+Run the project: 
 
 Open index.html in any modern browser.
